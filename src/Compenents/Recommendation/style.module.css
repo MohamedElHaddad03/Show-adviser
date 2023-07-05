@@ -1,0 +1,12 @@
+.list:hover{
+    overflow-x: overlay;
+}
+
+
+.list{
+    display: flex;
+    overflow-x: hidden;
+    width: 98vw ;
+    padding-bottom: 20px;
+
+}

@@ -1,0 +1,27 @@
+.barre{
+    background-color: rgba(128, 125, 125, 0.7);
+    border-radius: 56px;
+    height: 25px;
+    padding-left: 25px  ;
+    color: aliceblue;
+    font-size: 15px;
+    
+    
+}
+.barre::placeholder{
+    color: rgba(255, 255, 255, 0.756);
+    
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container{
+
+    display: flex;
+    
+}
+
+.icon{
+    position:absolute;
+    margin-top: 5px; 
+    margin-left: 7px;
+}

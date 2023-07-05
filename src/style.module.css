@@ -1,0 +1,26 @@
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 15px;
+    flex-direction: column;
+    background-color: black;
+}
+
+.header{
+    flex: 1;
+
+
+}
+
+.description{
+flex: 2;
+
+}
+
+
+
+.recomendation{
+    display: flex;
+    
+    flex: 1;
+}
