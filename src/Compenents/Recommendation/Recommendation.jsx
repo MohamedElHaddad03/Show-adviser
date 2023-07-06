@@ -7,7 +7,7 @@ export function Recommendation({list,onClickItem}){
         <h3>You may also like</h3>
 
        <div className={s.list}> {list.map((Show)=>{
-            return <TVShowListItem onClick={()=>{onClickItem(Show)}} tvShow={Show}/> 
+            return <TVShowListItem key={Show.id} onClick={()=>{onClickItem(Show)}} tvShow={Show}/> 
         })}</div>
     </div>
 
