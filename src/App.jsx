@@ -39,7 +39,7 @@ export function App(){
     }
 
     useEffect(() => {fetchPopular();
-    console.log("fetch pop !!!")},[]);
+    console.log('');},[]);
     useEffect(()=> { 
         if(currentTVShow){
         fetchRecommendation(currentTVShow.id);
