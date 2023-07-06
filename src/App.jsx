@@ -6,7 +6,6 @@ import { BACKDROP_BASE_URL } from "./config";
 import { Description } from "./Compenents/Description/Description";
 import { Logo } from "./Compenents/logo/logo";
 import logo from "./asset/images/logo.png"
-import { TVShowListItem } from "./Compenents/TVShowListItem/TVShowListItem";
 import { Recommendation } from "./Compenents/Recommendation/Recommendation";
 import { SearchBar } from "./Compenents/SearchBar/SearchBar";
 
